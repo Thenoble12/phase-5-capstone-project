@@ -1,4 +1,5 @@
-import Reac from "react";
+import React from "react";
+
 // import { connect } from "react-redux";
 // import { createStructuredSelector } from "reselect";
 // import {
@@ -9,8 +10,8 @@ import Reac from "react";
 //   selectCartItems,
 //   selectCartItemsCount,
 // } from "../../../../redux/cart/cart.selector";
+// import ButtonAddRemoveItem from "../../ButtonAddRemoveItem";
 
-//import ButtonAddRemoveItem from "../../ButtonAddRemoveItem";
 import "./menuItem.css";
 
 

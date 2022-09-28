@@ -8,11 +8,11 @@ function Menu() {
   
   const [ menuItems, setMenuItems ] = useState([])
 
-  const URL = "http://localhost:8000/"
+  const URL = "/products"
 
 
   useEffect(() => {
-    fetch(`${URL}products`)               
+    fetch(`${URL}`)               
         .then((r) => r.json())
         .then((productsData) => {setMenuItems(productsData)
                               console.log(menuItems)
