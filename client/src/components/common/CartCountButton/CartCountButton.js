@@ -6,6 +6,7 @@ function CartCountButton({ cartCount }) {
   //const history = useHistory();  
   return (
     <div>
+      
         <div className='btnCartCount' /*onClick={() => history.push('/cart')}*/>
             <div className='count'>
                 {cartCount >= 100 ? '99+' : cartCount}
